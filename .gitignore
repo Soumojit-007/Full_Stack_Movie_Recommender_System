@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# dotenv files (SECRETS)
+.env
+backend/.env
+frontend/.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# ML / Model Files
+# =========================
+*.pkl
+*.joblib
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Docker
+# =========================
+*.tar
